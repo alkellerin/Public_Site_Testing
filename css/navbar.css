@@ -72,6 +72,7 @@ h5 {
 
 h6 {
     color: var(--blue);
+    margin: auto;
 }
 
 h6:hover {
