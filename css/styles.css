@@ -103,7 +103,6 @@ label {
 .link {
     font-style: italic;
     font-size: 14px;
-    color: var(--blue);
 }
 
 input {
@@ -168,7 +167,9 @@ ul {
     display: flex;
     gap: 24px;
     padding: 0px 64px;
-    z-index: 101;
+    z-index: 1;
+    /* width: 70%;
+    margin-top: -40px; */
 }
 
 .membersCard {
@@ -204,6 +205,12 @@ ul {
 }
 
 .main_footer {
-    height: 120px;
+    /* height: 120px; */
     background-color: var(--blue);
+    text-align: right;
+}
+
+.triangles_footer {
+    height: 25%;
+    right: 0px;
 }

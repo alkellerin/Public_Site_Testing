@@ -1,0 +1,51 @@
+label, h1, p {
+    color: var(--white);
+    padding: 16px 24px 8px 16px;
+}
+
+
+.emblem {
+    width: 40%;
+    padding: 32px 0px 0px 20px;
+    right: 10px;
+}
+
+.banner {
+    background-color: var(--blue);
+    max-width: none;
+    padding: 16px;
+}
+
+.info {
+    margin: auto;
+    padding: 32px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: right;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.column.info {
+    flex: 2;
+}
+
+.column.right {
+    flex: 1; 
+}

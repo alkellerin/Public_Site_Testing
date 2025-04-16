@@ -59,6 +59,10 @@
         background-color: var(--lightest-blue);
     }
 
+    
+h5 {
+    color: var(--blue);
+}
 
 h6 {
     color: var(--blue);
