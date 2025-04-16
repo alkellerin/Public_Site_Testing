@@ -132,14 +132,18 @@ ul {
 }
 
 .main {
-    background-color: var(--blue);
+    background-color: var(--white);
 }
 
 .main-left {
     margin: auto;
     padding: 0px 64px;
-    color: white;
+    color: var(--blue);
 }
+
+/* .main-pic {
+    float: right;
+} */
 
 .row {
     display: flex;
@@ -153,4 +157,53 @@ ul {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+.emblem {
+    width: 50%;
+    float: right;
+}
+
+.choices {
+    display: flex;
+    gap: 24px;
+    padding: 0px 64px;
+    z-index: 101;
+}
+
+.membersCard {
+    width: 312px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    color: var(--blue);
+    background-color: var(--yellow);
+}
+
+.membersCard:hover {
+    filter: drop-shadow(4px 8px 10px #BFBFBF);
+}
+
+.employersCard {
+    width: 312px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    color: white;
+    background-color: #398434;
+}
+
+.employersCard:hover {
+    filter: drop-shadow(4px 8px 10px #BFBFBF);
+}
+
+.cardInfo {
+    padding: 16px;
+}
+
+.readMore {
+    padding: 16px;
+}
+
+.main_footer {
+    height: 120px;
+    background-color: var(--blue);
 }
